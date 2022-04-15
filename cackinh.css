@@ -1,0 +1,640 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            input {
+                line-height: normal;
+            }
+            
+            label,
+            button {
+                cursor: pointer;
+            }
+            
+            li {
+                display: list-item;
+                text-align: -webkit-match-parent;
+            }
+            
+            img {
+                display: block;
+                max-width: 100%;
+            }
+            
+            a {
+                text-decoration: none;
+                font-family: monospace;
+            }
+            
+            a:hover {
+                opacity: 0.5;
+            }
+            
+            .clear {
+                clear: both;
+            }
+            
+            .wraper-small {
+                max-width: 1010px;
+                margin: 0 auto;
+            }
+            
+            .wraper {
+                max-width: 1080px;
+                margin: 0 auto;
+            }
+            
+            body {
+                line-height: 1;
+                color: white;
+                min-height: 1600px;
+                background-image: url(../imagesth5/bg-top.jpg), url(../imagesth5/bg-bottom.jpg);
+                background-repeat: no-repeat, no-repeat;
+                background-size: auto;
+                background-position: top center, bottom center;
+                background-color: #f2f2f2;
+            }
+            
+            div {
+                display: block;
+            }
+            /* footter */
+            
+            #footer {
+                margin-bottom: 35px;
+                margin-top: 125px;
+                width: 100%;
+                height: 95px;
+                position: relative;
+            }
+            
+            .footer-center {
+                margin: 0 auto;
+                font-size: 11px;
+                color: black;
+                height: 23.75px;
+                text-align: center;
+            }
+            
+            .footer-border {
+                border-left: 1px solid rgb(168, 165, 165);
+                border-right: 1px solid rgb(147, 142, 142);
+            }
+            
+            .footer-link a {
+                display: inline-block;
+                height: auto;
+                width: auto;
+                padding: 0 3px;
+                text-align: center;
+                color: black;
+            }
+            
+            .footer-duoi {
+                margin: 0 auto;
+                font-size: 12px;
+                color: black;
+                height: 23.75px;
+                text-align: center;
+                color: black;
+            }
+            
+            .gosu-logo {
+                position: absolute;
+                top: -20px;
+                max-width: 1010px;
+            }
+            /* header */
+            
+            .header {
+                height: 65px;
+                display: flex;
+                align-items: center;
+                gap: 190px;
+            }
+            
+            .header a:hover {
+                color: gray;
+                text-decoration: none;
+            }
+            
+            .header-left {
+                width: 400px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-left: 33px;
+            }
+            
+            .header-left-menu {
+                width: 108.75px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+            
+            .header-left-menu a {
+                border-right: 1px solid rgba(255, 255, 255, 0.3);
+                display: block;
+                width: 100%;
+                height: 20px;
+                font-size: 14px;
+                line-height: 20px;
+                color: rgb(247, 225, 225);
+                font-family: monospace;
+                text-align: center;
+            }
+            
+            .header-right {
+                width: 403px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-right: 30px;
+            }
+            
+            .header-right-menu {
+                width: 108.75px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+            
+            .header-right-menu a {
+                border-left: 1px solid rgba(255, 255, 255, 0.3);
+                display: block;
+                width: 100%;
+                height: 20px;
+                font-size: 15px;
+                line-height: 20px;
+                color: rgb(247, 225, 225);
+                font-family: monospace;
+                text-align: center;
+            }
+            /* event */
+            
+            .event {
+                margin-top: 445px;
+            }
+            
+            .event-top {
+                height: 265px;
+                background-color: #1f3252;
+                padding: 3px;
+                display: flex;
+                align-items: center;
+            }
+            
+            .event-top-taigame a:hover {
+                background-color: gray;
+                text-decoration: none;
+            }
+            
+            .event-top-trai {
+                height: 100%;
+                width: 242px;
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+                position: relative;
+            }
+            
+            .event-wraper-small {
+                height: 1605px;
+                max-width: 1010px;
+                margin: 0 auto;
+                margin-top: 445px;
+            }
+            
+            .event-top-taigame {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                background-image: url(../imagesth5/btn_taigame.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .event-top-trai-menu {
+                width: 100%;
+                height: 50%;
+            }
+            
+            .event-top-sign {
+                display: inline-block;
+                width: 100%;
+                height: 50%;
+                background-image: url(../imagesth5/buttons-left.png);
+                background-position: 2px -2px;
+            }
+            
+            .event-top-sign:hover {
+                background-position: -247px -2px;
+                opacity: 1;
+            }
+            
+            .event-top-napthe {
+                display: inline-block;
+                width: 100%;
+                height: 50%;
+                background-image: url(../imagesth5/buttons-left.png);
+                background-position: 2px -65px;
+                margin-top: -3px;
+            }
+            
+            .event-top-napthe:hover {
+                background-position: -247px -65px;
+                opacity: 1;
+            }
+            
+            .event-top-trai-img {
+                width: 105px;
+                height: 230px;
+                position: absolute;
+                left: -80px;
+                top: -2px;
+            }
+            
+            .bottom-trai {
+                width: 754px;
+            }
+            
+            .bottom-phai {
+                position: absolute;
+                top: 5px;
+                right: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px 5px;
+                background: #1f3252;
+            }
+            
+            .event-top-slider-menu img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .event-top-slider {
+                height: 100%;
+                width: 492px;
+                margin: 0 auto;
+            }
+            
+            .slidermenu {
+                height: 100%;
+                width: 492px;
+            }
+            
+            .slide1 {
+                height: 100%;
+                width: 492px;
+                -webkit-animation: slide1 14s ease infinite;
+            }
+            
+            .slide2 {
+                height: 100%;
+                width: 492px;
+                -webkit-animation: slide2 14s ease infinite;
+            }
+            
+            .slide4 {
+                height: 100%;
+                width: 492px;
+            }
+            /* .slide3 {
+    height: 100%;
+    width: 492px;
+    -webkit-animation: slide1 15s ease infinite;
+} */
+            
+            .event-top-slider-menu {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                overflow: hidden;
+            }
+            
+            @-webkit-keyframes slide1 {
+                30% {
+                    margin-left: 0px;
+                }
+                40% {
+                    margin-left: -492px;
+                }
+                60% {
+                    margin-left: -492px;
+                }
+                70% {
+                    margin-left: -984px;
+                }
+                90% {
+                    margin-left: -984px;
+                }
+            }
+            
+            @-webkit-keyframes slide2 {
+                40% {
+                    margin-left: 0px;
+                }
+                60% {
+                    margin-left: -492px;
+                }
+                60% {
+                    margin-left: -492px;
+                }
+                90% {
+                    margin-left: -984px;
+                }
+                100% {
+                    margin-left: -984px;
+                }
+            }
+            
+            .event-top-contentow {
+                position: absolute;
+                top: 225px;
+                width: 100%;
+                height: 34px;
+                display: flex;
+                align-items: flex-end;
+            }
+            
+            .event-top-contentow div {
+                background-image: url(../imagesth5/hotline.png);
+                height: 32px;
+                width: 100%;
+            }
+            
+            .event-top-phai {
+                height: 100%;
+                width: 242px;
+                position: relative;
+            }
+            
+            .event-top-conten {
+                background-image: url(../imagesth5/buttons-right.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: calc( 100% + 20px);
+                height: 230px;
+                top: -10px;
+                position: absolute;
+            }
+            
+            .event-top-conten a {
+                display: block;
+                width: 116px;
+                height: 108px;
+            }
+            
+            .event-top-conten-bl {
+                width: calc(100% - 25px);
+                height: 226px;
+                position: absolute;
+                top: 8px;
+                display: grid;
+                grid-template-columns: 116px 116px;
+                column-gap: 8px;
+                row-gap: 5px;
+            }
+            
+            .event-top-conten-bl a:hover {
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+            /* bottom */
+            
+            .event-bottom {
+                height: 800px;
+                padding-top: 5px;
+                position: relative;
+            }
+            
+            .bottom-trai-buton {
+                width: 100%;
+                height: 85px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .bottom-trai-code-1 {
+                background-image: url(../imagesth5/cuuamlenh-vip-giftcode.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .bottom-trai-code-2 {
+                background-image: url(../imagesth5/cuuamlenh-vip-giftcode.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: -256px 0px;
+            }
+            
+            .bottom-trai-code-3 {
+                background-image: url(../imagesth5/cuuamlenh-vip-giftcode.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: -512px 0px;
+            }
+            
+            .bottom-trai-conten {
+                background-color: #1f3252;
+                margin-top: 10px;
+                height: 600px;
+            }
+            
+            .bottom-trai-buton a {
+                display: block;
+                width: 250px;
+                height: 100%;
+            }
+            
+            .bottom-trai-tintuc {
+                border: #1f3252 5px solid;
+                background-color: white;
+                padding: 15px 55px 25px 15px;
+            }
+            
+            .bottom-trai-thongbao {
+                width: 100%;
+                height: 55px;
+                background-size: cover;
+                background-image: url(../imagesth5/news-header-bg.png);
+            }
+            
+            .bottom-trai-thongbao ul {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                list-style: none;
+                align-items: center;
+                gap: 10px;
+            }
+            
+            .bottom-trai-thongbao ul a {
+                display: block;
+                color: #c7a87a;
+                width: 100px;
+                text-align: center;
+            }
+            
+            .bottom-trai-new {
+                border: #1f3252 5px solid;
+                background-color: white;
+                padding: 15px 55px 25px 15px;
+            }
+            
+            .bottom-link {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+            }
+            
+            .bottom-link-item {
+                width: 100%;
+                height: 150px;
+                display: flex;
+                gap: 25px;
+            }
+            
+            .bottom-link-item-img {
+                width: 150px;
+                height: 100%;
+                border: 5px solid #c7a87a;
+            }
+            
+            .bottom-link-item-img a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+            
+            .bottom-link-item-content {
+                width: 490px;
+                height: 100%;
+            }
+            
+            .bottom-link-item-content a {
+                display: inline-block;
+                width: 100%;
+                padding-left: 10px;
+                border-left: 5px #b70f0b solid;
+                font-size: 1.35em;
+                line-height: 1.1;
+                color: #b70f0b;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            
+            .bottom-link-item-content h2 {
+                padding: 10px 0;
+                font-size: 12px;
+                color: #aaaaaa;
+                font-weight: 300;
+                font-style: italic;
+            }
+            
+            .bottom-link-item-content p {
+                font-size: 14.5px;
+                color: #777777;
+                line-height: 1.2;
+            }
+            
+            .bottom-link-img-1 {
+                background-image: url(../imagesth5/news-dang-nhap.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+            .bottom-link-img-2 {
+                background-image: url(../imagesth5/news-su-kien.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+            .bottom-link-img-3 {
+                background-image: url(../imagesth5/news-event-thang3.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+            .bottom-link-btn {
+                height: 60px;
+                position: relative;
+            }
+            
+            .bottom-link-btn button {
+                display: block;
+                width: 95px;
+                height: 48px;
+                background-color: #1f3252;
+                border: 5px #aaaaaa solid;
+                font-family: "Roboto Slab", serif;
+                color: #aaaaaa;
+                text-transform: uppercase;
+            }
+            
+            .bottom-link-btn button:hover {
+                opacity: 0.75;
+            }
+            
+            .bottom-link-btn-up {
+                position: absolute;
+                bottom: 0;
+                right: 105px;
+            }
+            
+            .bottom-link-btn-more {
+                position: absolute;
+                bottom: 0;
+                right: 0px;
+            }
+            
+            .bottom-phai a {
+                display: inline-block;
+                margin: 0 auto;
+                width: 228px;
+                height: 53px;
+            }
+            
+            .bottom-mucluc-1 {
+                background-image: url(../imagesth5/links-right.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            .bottom-mucluc-2 {
+                background-image: url(../imagesth5/links-right.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 0px -60px;
+            }
+            
+            .bottom-mucluc-3 {
+                background-image: url(../imagesth5/links-right.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 0px -120px;
+            }
+            
+            .bottom-mucluc-4 {
+                background-image: url(../imagesth5/links-right.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 0px -173px;
+            }
+            
+            .bottom-mucluc-5 {
+                background-image: url(../imagesth5/links-right.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 0px -228px;
+            }
